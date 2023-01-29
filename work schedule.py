@@ -14,8 +14,7 @@ def export_schedule(schedule):
 frame = pd.DataFrame(columns=['Worker', 'Date', 'Shift', 'Week_number'])
     
 # Create a list of workers
-workers = ["Tomaž Čuček", "Danijel Mršič", "Uroš Petrič", "Franc Primožič", "Samo Vesel", "Primož Bajec", "Alen Mašić", "Gorazd Udovič", "Simona Zadnik", "Bernard Kokol", "Mojca Česnik", "Nina Eder", "Martin Velikanje",  "Urban Urbanc",
-"Nejc Cimprič", "Sabrina Jeranče", "Mitja Tekavec",  "Damjan Kokol", "Jagodič Borut", "Albreht Matjaž", "Černivšek Urh", "Aneja Šavli", "Mlakar Bojan", "Nejedly Sebastjan", "Ajster Vid",]
+workers = ["worker1","worker2","worker3","worker4","worker5","worker6","worker7"]
 
 # Define the start and end dates
 start_date = "01-02-2023"
